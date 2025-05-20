@@ -1,4 +1,27 @@
-# React + TypeScript + Vite
+# Travel Article App
+
+## 🔧 Tech Stack
+
+- ⚛️ React (with Vite)
+- 🟦 TypeScript
+- 🎨 Pure CSS (no frameworks)
+- ⚡ Vite as module bundler
+
+## 📁 Project Structure
+
+src/
+
+├── components/ # Reusable UI components
+
+├── pages/ # Main page views
+
+├── assets/ # Static files (styling, etc.)
+
+├── App.tsx # Root component
+
+└── main.tsx # App entry point
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
