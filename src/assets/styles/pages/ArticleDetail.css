@@ -1,0 +1,45 @@
+.article-detail {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.article-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.article-detail p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.article-detail small {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #eee;
+  padding-top: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .article-detail {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .article-detail h2 {
+    font-size: 1.5rem;
+  }
+  
+  .article-detail p {
+    font-size: 1rem;
+  }
+}
